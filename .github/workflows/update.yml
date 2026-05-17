@@ -26,6 +26,7 @@ jobs:
         cp verified/proxy_ru_verified.txt  proxy_ru.txt
         cp verified/proxy_eu_verified.txt  proxy_eu.txt
         cp verified/proxy_all_verified.txt proxy_all.txt
+        cat proxy_ru.txt
 
     # Коммитим только если есть изменения
     - run: |
